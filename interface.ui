@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>735</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PemSim-Regresi Linear Sederhana</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>715</width>
+         <height>586</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0" colspan="3">
+         <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <family>Modern</family>
+            <pointsize>23</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Regresi Linear Sederhana&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" colspan="2">
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="title">
+             <string>Otomatis</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_4">
+             <item row="0" column="1" colspan="2">
+              <widget class="QScrollArea" name="scrollArea_3">
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_4">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>274</width>
+                  <height>488</height>
+                 </rect>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_5">
+                 <item row="5" column="1">
+                  <widget class="QLabel" name="label_8">
+                   <property name="text">
+                    <string>Korelasi Pearson</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="1">
+                  <widget class="QPushButton" name="otoregresiButton">
+                   <property name="text">
+                    <string>Regresi</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QPushButton" name="importButton">
+                   <property name="text">
+                    <string>Import File</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="1">
+                  <widget class="QLabel" name="label_7">
+                   <property name="text">
+                    <string>Koefisien</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QLineEdit" name="dirEdit">
+                   <property name="readOnly">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="5" column="2">
+                  <widget class="QLineEdit" name="otokorelasiEdit">
+                   <property name="readOnly">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="6" column="2">
+                  <widget class="QLineEdit" name="otoformulaEdit"/>
+                 </item>
+                 <item row="6" column="1">
+                  <widget class="QLabel" name="label_9">
+                   <property name="text">
+                    <string>Formula</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="1" colspan="2">
+                  <widget class="QTableWidget" name="tableWidget_2">
+                   <column>
+                    <property name="text">
+                     <string>Variabel X</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>Variabel Y</string>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                 <item row="4" column="2">
+                  <widget class="QLineEdit" name="otokoefisienEdit">
+                   <property name="readOnly">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="7" column="1" colspan="2">
+                  <widget class="QTextBrowser" name="textBrowser_2"/>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QPushButton" name="otoresetButton">
+                   <property name="text">
+                    <string>Bersihkan</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="title">
+             <string>Manual</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="0" column="0">
+              <widget class="QScrollArea" name="scrollArea_2">
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_3">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>369</width>
+                  <height>488</height>
+                 </rect>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_3">
+                 <item row="7" column="1">
+                  <widget class="QLineEdit" name="korelasiEdit">
+                   <property name="readOnly">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="1">
+                  <widget class="QPushButton" name="resetButton">
+                   <property name="text">
+                    <string>Bersihkan</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="0">
+                  <widget class="QPushButton" name="variabelButton">
+                   <property name="text">
+                    <string>Kirim</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="7" column="0">
+                  <widget class="QLabel" name="label_5">
+                   <property name="text">
+                    <string>Korelasi Pearson</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="6" column="0">
+                  <widget class="QLabel" name="label_4">
+                   <property name="text">
+                    <string>Koefisien</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="0" colspan="2">
+                  <widget class="QTableWidget" name="manualtableWidget">
+                   <property name="font">
+                    <font>
+                     <family>Modern</family>
+                    </font>
+                   </property>
+                   <column>
+                    <property name="text">
+                     <string>Variabel X</string>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Modern</family>
+                      <pointsize>10</pointsize>
+                     </font>
+                    </property>
+                    <property name="textAlignment">
+                     <set>AlignCenter</set>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>Variabel Y</string>
+                    </property>
+                    <property name="textAlignment">
+                     <set>AlignCenter</set>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                 <item row="8" column="0">
+                  <widget class="QLabel" name="label_6">
+                   <property name="text">
+                    <string>Formula</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QLabel" name="label_3">
+                   <property name="text">
+                    <string>Variabel Y</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="6" column="1">
+                  <widget class="QLineEdit" name="koefisienEdit">
+                   <property name="statusTip">
+                    <string extracomment="Nilai koefisien determinan"/>
+                   </property>
+                   <property name="readOnly">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="8" column="1">
+                  <widget class="QLineEdit" name="formulaEdit">
+                   <property name="readOnly">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QLineEdit" name="YEdit"/>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QLineEdit" name="XEdit"/>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label_2">
+                   <property name="text">
+                    <string>Variabel X</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="5" column="0">
+                  <widget class="QPushButton" name="regresiButton">
+                   <property name="text">
+                    <string>Regresi</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="9" column="0" colspan="2">
+                  <widget class="QTextBrowser" name="textBrowser"/>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>735</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="About">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="About_Me"/>
+   </widget>
+   <addaction name="About"/>
+  </widget>
+  <action name="About_Me">
+   <property name="text">
+    <string>About Me</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
