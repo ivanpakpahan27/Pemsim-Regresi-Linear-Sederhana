@@ -9,5 +9,3 @@ PyQt5-Qt5                 5.15.2
 PyQt5-sip                 12.9.1
 scikit-learn              1.0.2
 scipy                     1.8.0
-
-run main.py
